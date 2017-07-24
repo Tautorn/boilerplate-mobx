@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Translate should get preferencial language 1`] = `"en-US"`;

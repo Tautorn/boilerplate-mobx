@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Base Config should return base configuration 1`] = `
+Object {
+  "baseURL": "http://localhost:3000",
+  "headers": Object {
+    "Accept": "application/json",
+    "Accept-Language": "en-US",
+  },
+}
+`;

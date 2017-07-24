@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intl should render Intl component 1`] = `
+<span>
+  hello
+</span>
+`;
+
+exports[`Intl should render fallback when intl is not found 1`] = `
+<span>
+  errrorr
+</span>
+`;

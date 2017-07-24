@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render login  1`] = `
+<div>
+  <span>
+    Hello
+  </span>
+  <p>
+    Test
+  </p>
+  <input
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;

@@ -2,8 +2,8 @@ import { addLocaleData } from 'react-intl'
 import pt from 'react-intl/locale-data/pt'
 import en from 'react-intl/locale-data/en'
 import * as Tools from 'core/util/translate'
-import ptBR from '../../../i18n/pt-BR'
-import enUS from '../../../i18n/en-US'
+import ptBR from 'core/i18n/pt-BR'
+import enUS from 'core/i18n/en-US'
 
 const Translate = {}
 

@@ -4,9 +4,7 @@ export function onResponseError(error) {
   const unauthorizedStatus = 401
   const isUnauthorized = get(error, 'response.status') === unauthorizedStatus
 
-  if (isUnauthorized) {
-    window.location.replace('/auth/login.html')
-  }
+  // error handler
 
   return Promise.reject(error)
 }

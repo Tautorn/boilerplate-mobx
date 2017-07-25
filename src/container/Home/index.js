@@ -29,14 +29,14 @@ class Home extends React.Component {
         <span>Hello</span>
         <p>{msg}</p>
         <input type="text" onChange={(e) => handleChange(e.target.value)} />
-        <table>
+        <table className="table">
           <thead>
             <tr>
               <th>My List</th>
             </tr>
-          </thead>>
+          </thead>
           <tbody>
-            {list && map(map, (val, index) => this.renderList(val, index))}
+            {list && map(list, (val, index) => this.renderList(val, index))}
           </tbody>
         </table>
       </div>

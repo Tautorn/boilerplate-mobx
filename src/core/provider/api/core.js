@@ -4,7 +4,7 @@ import { validateRequest, onResponseError } from '../interceptors'
 
 const getBasicConfig = () => {
   return {
-    baseURL: global.ENVIRONMENT_CONFIGbaseUrl,
+    baseURL: global.URL_CONFIG.baseUrl,
     params: {
 
     },

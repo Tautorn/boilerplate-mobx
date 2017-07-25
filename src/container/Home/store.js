@@ -7,6 +7,7 @@ class HomeStore {
   @observable list = []
 
   constructor() {
+    this.loadStore()
     this.handleChange = this.handleChange.bind(this)
   }
 
@@ -16,7 +17,7 @@ class HomeStore {
 
   loadStore() {
     HomeProvider.search()
-      .then(({ res }) => this.list = res.data )
+      .then(({ data }) => this.list = data )
       .catch(( err ) => console.log('exception', err))
   }
 

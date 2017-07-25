@@ -1,2 +1,5 @@
+$bootstrap-sass-asset-helper: "";
+$enable-flex: true;
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 @import 'general';
-@import '~bootstrap/scss/bootstrap';
